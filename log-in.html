@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body
+    class="bg-[url('/images/bg-img.png')] bg-no-repeat bg-cover bg-top w-full"
+  >
+    <div>
+      <div class="max-w-[1280px]">
+        <div class="flex justify-around items-center pt-[41px]">
+          <img src="images/logo_footer.svg" alt="" />
+          <ul class="flex gap-6 text-black font-bold text-xs">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Аренда</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li class="flex">
+              <a href="#">Язык</a>
+              <a href="#"><img src="images/Frame.svg" alt="" /></a>
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="text-black font-bold text-xs p-3 rounded-[23px] border-black border"
+            >Войти</a
+          >
+        </div>
+      </div>
+      <!-- / -->
+      <div class="max-w-[1280px] flex items-center justify-center mt-[92px]">
+        <div
+          class="bg-[#313131B2] rounded-[40px] shadow-lg p-8 w-[500px] h-[515px]"
+        >
+          <h2 class="text-center text-2xl font-semibold mb-6 text-white">
+            Авторизация
+          </h2>
+
+          <div class="text-center mb-4">
+            <span class="text-[#C2C2C2]">У вас нет аккаунта? </span>
+            <a href="#" class="text-white">Зарегистрироваться</a>
+          </div>
+
+          <form>
+            <div class="mb-4">
+              <label
+                class="block text-[#ffffff] font-normal text-sm mb-2"
+                for="email"
+                >Электронная почта*</label
+              >
+              <div
+                class="flex items-center bg-[#6868684D] border rounded-[20px]"
+              >
+                <span class="px-3 bg-[#6868684D]">
+                  <img src="images/icon.@.svg" alt="" />
+                </span>
+                <input
+                  class="w-full px-3 py-3 bg-[#6868684D] border-none rounded-[20px]"
+                  type="email"
+                  placeholder="Введите электронную почту"
+                />
+              </div>
+            </div>
+
+            <div class="mb-6">
+              <label
+                class="block text-[#ffffff] font-normal text-sm mb-2"
+                for="password"
+                >Пароль*</label
+              >
+              <div
+                class="flex items-center bg-[#6868684D] border rounded-[20px]"
+              >
+                <span class="px-3 bg-[#6868684D]">
+                  <img src="images/icon8.svg" alt="" />
+                </span>
+                <input
+                  class="w-full bg-[#6868684D] px-3 py-3 border-none rounded-[20px]"
+                  type="password"
+                  placeholder="Введите пароль"
+                />
+                <span class="bg-[#6868684D]">
+                  <a href="#"
+                    ><img
+                      src="images/icon_koz.svg"
+                      alt="koz"
+                      class="bg-[#6868684D] p-2"
+                  /></a>
+                </span>
+              </div>
+            </div>
+            <button
+              class="w-full py-2 bg-[#1797AA] text-white rounded-[20px] transition-colors"
+            >
+              Войти
+            </button>
+
+            <div class="text-center mt-4">
+              <a href="#" class="text-[#ACDBE2]">Забыли пароль?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- // -->
+    </div>
+  </body>
+</html>

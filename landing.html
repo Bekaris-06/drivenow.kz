@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="bg-black">
+      <div
+        class="mx-auto max-w-[1280px] bg-black lg:flex lg:justify-start lg:flex-row md:flex md:justify-center"
+      >
+        <div class="w-full">
+          <header
+            class="flex gap-32 items-center mb-[102px] ml-[100px] pt-[41px] md:gap-10"
+          >
+            <div class="header__logo">
+              <img src="images/logo.svg" alt="" />
+            </div>
+            <div class="header__nav">
+              <ul class="flex gap-6 font-bold text-white size-4">
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+                <li>
+                  <a href="#">Сервис</a>
+                </li>
+                <li>
+                  <a href="#">Аренда</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </header>
+          <main
+            class="bg-no-repeat bg-[url('images/icon1.png')] bg-[296px_-131px] ml-[100px] md::bg-[202px_115px]"
+          >
+            <div class="">
+              <h1 class="text-[#FFFD8A] text-2xl mb-4">АРЕНДА АВТОМОБИЛЕЙ</h1>
+              <p class="text-[#FFFFFF] text-3xl mb-16">
+                Откройте для себя радость
+                <br />
+                гибкости и доступности <br />
+                Прокат автомобилей
+              </p>
+              <div class="main__buttons mb-52 lg:mb-52 md:mb-52">
+                <div
+                  class="flex flex-col bg-[#31313180] rounded-[40px] p-10 w-[487px]"
+                >
+                  <!-- Поле выбора города -->
+                  <div class="relative w-[406px] mb-4">
+                    <select
+                      class="w-full p-3 pl-10 text-[#ADCED3] bg-[#6868684D] rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
+                      <option>Выберите город</option>
+                      <!-- Добавьте другие опции -->
+                    </select>
+                    <div
+                      class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+                    >
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15 10.5C15 11.2956 14.6839 12.0587 14.1213 12.6213C13.5587 13.1839 12.7956 13.5 12 13.5C11.2044 13.5 10.4413 13.1839 9.87868 12.6213C9.31607 12.0587 9 11.2956 9 10.5C9 9.70435 9.31607 8.94129 9.87868 8.37868C10.4413 7.81607 11.2044 7.5 12 7.5C12.7956 7.5 13.5587 7.81607 14.1213 8.37868C14.6839 8.94129 15 9.70435 15 10.5Z"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M19.5 10.5C19.5 17.642 12 21.75 12 21.75C12 21.75 4.5 17.642 4.5 10.5C4.5 8.51088 5.29018 6.60322 6.6967 5.1967C8.10322 3.79018 10.0109 3 12 3C13.9891 3 15.8968 3.79018 17.3033 5.1967C18.7098 6.60322 19.5 8.51088 19.5 10.5Z"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <!-- Кнопка "Искать" -->
+
+                  <button
+                    class="w-[406px] p-3 text-white bg-[#2CA9BC] rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-300"
+                  >
+                    Искать
+                  </button>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////////////////////////////////////////////////////// -->
+    <div class="bg-[#ffffff] pt-[216px] pb-[223px] max-w-1280px">
+      <div class="flex flex-col">
+        <p class="text-[#71717A] mx-auto font-bold text-[12px]">
+          КАК РАБОТАЕТ НАШ СЕРВИС
+        </p>
+        <p class="text-[#000000] mx-auto font-bold text-[40px] mt-[27px]">
+          Представляем вашего нового <br />
+          фаворита аренды автомобилей
+        </p>
+        <div
+          class="text-center mx-auto flex mt-[77px] lg:flex md:grid md:grid-cols-2 md:grid-rows-2 md:p-[50px] md:gap-10"
+        >
+          <div>
+            <img src="images/icon3.svg" alt="" class="mx-auto mb-[45px]" />
+            <p class="font-bold text-black text-[16px] mb-[27px]">
+              Выберите местоположение
+            </p>
+            <p class="text-[#71717A] font-normal text-[12px]">
+              Мы делаем вещи умнее, а не сложнее, с <br />
+              изяществом и благодарностью.
+            </p>
+          </div>
+          <div>
+            <img src="images/icon4.svg" alt="" class="mx-auto mb-[45px]" />
+            <p class="font-bold text-black text-[16px] mb-[27px]">
+              Выберите свой автомобиль
+            </p>
+            <p class="text-[#71717A] font-normal text-[12px]">
+              Ознакомьтесь с доступными моделями <br />
+              автомобилей, их характеристиками и ценами.
+            </p>
+          </div>
+          <div>
+            <img src="images/icon5.svg" alt="" class="mx-auto mb-[45px]" />
+            <p class="font-bold text-black text-[16px] mb-[27px]">
+              Подтверждение
+            </p>
+            <p class="text-[#71717A] font-normal text-[12px]">
+              Просто подтвердите свои водительские права, <br />
+              добавьте способ оплаты, и все готово.
+            </p>
+          </div>
+          <div>
+            <img src="images/icon6.svg" alt="" class="mx-auto mb-[45px]" s />
+            <p class="font-bold text-black text-[16px] mb-[27px]">
+              Начать вождение
+            </p>
+            <p class="text-[#71717A] font-normal text-[12px]">
+              Страховка и помощь на дороге <br />
+              уже включены в стоимость.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////////////////////////////////////////////////////////////////////////////// -->
+    <div class="bg-[#F1F1F1]">
+      <div
+        class="max-w-[1280px] px-[100px] md:px-[20px] md:flex md:flex-col md:items-center pb-[33px] bg-[#F1F1F1]"
+      >
+        <div>
+          <h1 class="text-center pt-[90px] font-bold text-4xl mb-[68px]">
+            Наши коллекции автомобилей
+          </h1>
+        </div>
+        <div class="xl:flex xl:gap-[50px] lg:flex lg:gap-3 lg:justify-around">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img
+              class="w-full"
+              src="images/icon7.png"
+              alt="Mercedes Benz S Class"
+            />
+            <div class="px-6 py-4">
+              <h2 class="font-bold text-xl mb-2">Mercedes Benz S Class W-2</h2>
+            </div>
+            <div class="flex flex-col p-4 gap-4">
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/car-door-left-1-svgrepo-com 1.svg" alt="" />
+                  <span class="size-3">Двери</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">4</span>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/fuel-svgrepo-com.svg" alt="" />
+                  <span class="size-3">Топливо</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">Бензин</span>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/transmission-svgrepo-com.svg" alt="" />
+                  <span class="size-3">КПП_АП</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">Автомат</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <p>
+                  <span class="text-[#2CA9BC] font-black text-base"
+                    >90.000 ₸</span
+                  >
+                  /день
+                </p>
+
+                <button
+                  class="bg-[#2CA9BC] text-white text-xs font-medium py-2 px-4 rounded-full"
+                >
+                  Детально
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- ///////// -->
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img
+              class="w-full"
+              src="images/icon7.png"
+              alt="Mercedes Benz S Class"
+            />
+            <div class="px-6 py-4">
+              <h2 class="font-bold text-xl mb-2">Mercedes Benz S Class W-2</h2>
+            </div>
+            <div class="flex flex-col p-4 gap-4">
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/car-door-left-1-svgrepo-com 1.svg" alt="" />
+                  <span class="size-3">Двери</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">4</span>
+                </div>
+              </div>
+
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/fuel-svgrepo-com.svg" alt="" />
+                  <span class="size-3">Топливо</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">Бензин</span>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/transmission-svgrepo-com.svg" alt="" />
+                  <span class="size-3">КПП_АП</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">Автомат</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <p>
+                  <span class="text-[#2CA9BC] font-black text-base"
+                    >90.000 ₸</span
+                  >
+                  /день
+                </p>
+
+                <button
+                  class="bg-[#2CA9BC] text-white text-xs font-medium py-2 px-4 rounded-full"
+                >
+                  Детально
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- ////////// -->
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img
+              class="w-full"
+              src="images/icon7.png"
+              alt="Mercedes Benz S Class"
+            />
+            <div class="px-6 py-4">
+              <h2 class="font-bold text-xl mb-2">Mercedes Benz S Class W-2</h2>
+            </div>
+            <div class="flex flex-col p-4 gap-4">
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/car-door-left-1-svgrepo-com 1.svg" alt="" />
+                  <span class="size-3">Двери</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">4</span>
+                </div>
+              </div>
+
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/fuel-svgrepo-com.svg" alt="" />
+                  <span class="size-3">Топливо</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">Бензин</span>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex gap-4">
+                  <img src="images/transmission-svgrepo-com.svg" alt="" />
+                  <span class="size-3">КПП_АП</span>
+                </div>
+                <div>
+                  <span class="font-bold size-3">Автомат</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <p>
+                  <span class="text-[#2CA9BC] font-black text-base"
+                    >90.000 ₸</span
+                  >
+                  /день
+                </p>
+
+                <button
+                  class="bg-[#2CA9BC] text-white text-xs font-medium py-2 px-4 rounded-full"
+                >
+                  Детально
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- // -->
+      <div class="flex gap-2 items-center justify-center pb-11">
+        <span class="text-[#3B78E7]">Посмотреть все</span>
+        <img src="images/strelka.svg" alt="" />
+      </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////////////// -->
+    <div class="bg-black">
+      <div
+        class="max-w-[1280px] flex gap-16 justify-around pb-[120px] pt-[120px] lg:flex lg:flex-col lg:items-center md:flex md:flex-col md:items-center"
+      >
+        <div class="flex flex-col gap-12">
+          <h1 class="text-[40px] text-white">
+            Мы будем рады отвечать на <br />
+            ваши звонки и сообщения
+          </h1>
+          <div class="flex gap-24">
+            <div class="flex gap-4">
+              <img src="images/phone.svg" alt="telephone" />
+              <p class="font-bold text-xl text-white">+7 776 339 0202</p>
+            </div>
+            <div class="flex gap-4">
+              <img src="images/mail.svg" alt="telephone" />
+              <p class="font-bold text-xl text-white">info@drivenow.kz</p>
+            </div>
+          </div>
+          <div
+            class="flex gap-6 lg:flex lg:justify-center md:flex md:justify-center"
+          >
+            <a href="/"><img src="images/insta.svg" alt="" /></a>
+            <a href="/"><img src="images/telegram.svg" alt="" /></a>
+            <a href="/"><img src="images/tiktok.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-5 pt-[38px]">
+          <div class="flex gap-5">
+            <div>
+              <label class="block text-[#71717A] text-[12px]" for="firstName"
+                >ИМЯ*</label
+              >
+              <input
+                class="mt-1 block w-[180px] p-2 bg-[#363636B2] rounded-[12px]"
+                type="text"
+                id="firstName"
+                placeholder="ИМЯ"
+              />
+            </div>
+            <div>
+              <label class="block text-[#71717A] text-[12px]" for="firstName"
+                >ФАМИЛИЯ*</label
+              >
+              <input
+                class="mt-1 block w-[174px] p-2 bg-[#363636B2] rounded-[12px]"
+                type="text"
+                id="firstName"
+                placeholder="Фамилия"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <input
+                class="mt-[18px] block w-[374px] h-[90px] mb-5 p-2 bg-[#363636B2] rounded-[12px]"
+                type="text"
+                id="firstName"
+                placeholder="Чем мы можем вам помочь?"
+              />
+            </div>
+          </div>
+          <div>
+            <a
+              href="/"
+              class="p-4 bg-[#2CA9BC] rounded-[12px] text-base text-white font-bold"
+              >Отправить</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////////////////// -->
+    <div>
+      <div class="xl:flex lg:flex-wrap pt-[50px] lg:pl-72 md:content-center">
+        <div class="lg:mb-10">
+          <img
+            src="images/logo_footer.svg"
+            alt="logo_footer"
+            class="mb-[21px]"
+          />
+          <p class="font-normal text-[#71717A] text-base">
+            Воспользовавшись нашими услугами по прокату автомобилей, вы сможете
+            <br />
+            ощутить максимальное удобство и свободу исследовать пункт назначения
+            <br />
+            в удобном для вас темпе.
+          </p>
+        </div>
+        <div class="flex gap-28">
+          <div class="flex flex-col gap-5">
+            <p>Блог</p>
+            <p>О нас</p>
+            <p>Отзывы</p>
+            <p>Контакты</p>
+          </div>
+          <div class="flex flex-col gap-5">
+            <p>Политика конфиденциальности</p>
+            <p>Условия</p>
+            <p>Часто задаваемые вопросы</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-[74px] text-center pb-[37px]">
+        © 2024 DriveNow® Global Inc.
+      </div>
+    </div>
+  </body>
+</html>
