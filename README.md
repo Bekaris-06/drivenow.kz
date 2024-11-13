@@ -1,2 +1,0 @@
-# drivenow.kz
-# drivenow.kz
